@@ -1,0 +1,74 @@
+﻿<div class="page-head">
+    <h2>
+        {{title}} <span class="badge bg-info tooltips" [title]="tooltip" data-placement="right" style="vertical-align: top;">?</span>
+
+    </h2>
+    <breadcrumb [hleb]="hleb"></breadcrumb>
+
+</div>
+<!-- page head end-->
+
+<div class="wrapper" style="overflow: scroll;">
+    <div class="row">
+
+
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <form #f="ngForm" (ngSubmit)="onSubmit(f.value)" class="form">
+                <div class="form-group row" *ngFor="let polje of polja; let i = index;">
+                    <label class="col-lg-4 col-sm-2 col-md-4">{{polje.NAZIV_POLJA}}</label>
+                    <div class="col-lg-8 col-sm-10 col-md-8">
+                        <input type="text" class="form-control" [placeholder]="polje.REF_POLJE"
+                               ngControl="{{polje.REF_POLJE}}">
+                    </div>
+                </div>
+
+                <div class="col-lg-offset-9 col-sm-offset-9 col-md-offset-10 col-md-2 col-sm-2 col-lg-3">
+                    <button type="submit" class="btn btn-success">Potvrdi</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-8 col-sm-6 col-xs-12">
+            <section>
+                <header class="panel-heading">
+                    {{title}}
+                    <span class="tools pull-right">
+                        <a href="javascript:;" class="fa fa-repeat box-refresh"></a>
+                        <a class="t-close fa fa-times" href="javascript:;"></a>
+                    </span>
+                </header>
+
+                <table class="table convert-data-table data-table" style="overflow: scroll;">
+                    <thead>
+                        <tr>
+                            <th>rbr</th>
+                            <th *ngFor="let polje of polja">{{polje.NAZIV_POLJA}}</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let red of sadrzaj; let idx=index;">
+                            <td>{{idx + 1}}</td>
+                            <td *ngFor="let cell of red; let i=index;">
+                                <div *ngIf="edit!=idx" (dblclick)="Izmeni(idx, red)">{{sadrzaj[idx][i]}}</div>
+                                <input type="text" *ngIf="edit==idx" [(ngModel)]="sadrzaj[idx][i]" />
+                            </td>
+                            <td>
+                                <div *ngIf="edit!=idx">
+                                    <i class="fa fa-pencil-square-o" (click)="Izmeni(idx, red)"></i>
+                                    <i class="fa fa-trash" (click)="Obrisi(idx)"></i>
+                                </div>
+                                <div *ngIf="edit==idx">
+                                    <i class="fa fa-check" (click)="edit=-1"></i>
+                                    <i class="fa fa-times" (click)="Odustani(idx)"></i>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </div>
+    </div>
+</div>

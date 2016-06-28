@@ -1,0 +1,18 @@
+﻿<ul class="col-sm-3 list-unstyled" *ngFor="let drugi of meni">
+    <li>
+        <p class="title">{{drugi.NAZIV_ZAD}}</p>
+        <ul class="list-unstyled">
+            <li *ngFor="let treci of drugi.DecaZadaci; let iTreci= index;">
+                <a href="javascript:;" (mouseenter)="selectItemTreci(iTreci)"><i class="fa fa-angle-right"></i> {{treci.NAZIV_ZAD}}</a>
+                <div *ngIf="selectedIdxTreci == iTreci">
+                    <ul class="list-unstyled" *ngIf="treci.DecaZadaci != null">
+                        <li class="menu-list" *ngFor="let cetvrti of treci.DecaZadaci"
+                            (click)="onSelect(cetvrti)">
+                            <a href="javascript:;">{{cetvrti.ZAD_ID}} {{cetvrti.NAZIV_ZAD}}</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul>

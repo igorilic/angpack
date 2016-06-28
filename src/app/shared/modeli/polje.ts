@@ -1,0 +1,35 @@
+﻿export interface IPolje {
+    ZAD_ID: number;
+    NAZIV_ZAD: string;
+    SIF_OBRAZAC_ID: number;
+    NAZIV_OBRASCA: string;
+    SIF_POLJA_ID: number;
+    SIF_TRANS_POLJE: string;
+    DEFINICIJA_TRANS_POLJA: string;
+    NAZIV_POLJA: string;
+    DEFINICIJA_ORIG_POLJA: string;
+    REF_TABELA: string;
+    REF_POLJE: string;
+    D_RB: number;
+    D_OBAVEZNO: boolean;
+    D_EKRANSKI_NAZIV_POLJA: string;
+    D_POREKLO: string;
+    D_TIP_POLJA: string;
+    D_MIN: boolean;
+    D_MAX: boolean;
+    D_FORMAT: string;
+    D_KONTROLA: string;
+    D_NAPOMENA: string;
+    D_RBR_PRIKAZA: number;
+    D_NAZIV_POGLAVLJA: string;
+    D_OPIS_POGLAVLJA: string;
+    D_FUN_SPEC: string;
+    D_STAMPA_SPEC: string;
+    D_IZVESTAJ_SPEC: string;
+    D_EKRANSKI_IZGLED1: string;
+    D_EKRANSKI_IZGLED2: string;
+    D_OPIS_POGLAVLJA_NAD: string;
+    D_NAZIV_POGLAVLJA_NAD: string;
+    D_FIKSNO_POLJE: string;
+    ID: number
+}

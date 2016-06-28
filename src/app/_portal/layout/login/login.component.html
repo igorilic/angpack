@@ -1,0 +1,19 @@
+﻿<div class="login-body">
+    <div class="login-logo">
+        <img src="app/assets/img/logo_cp.png" alt="" />
+    </div>
+
+    <h2 class="form-heading">Informacioni sistem Pošta Srpske</h2>
+    <div class="container log-row">
+        <form class="form-signin" role="form" (onload)="setFirst()"
+              (submit)="login($event, sifra.value, password.value )">
+            <div class="login-wrap">
+                <input *ngIf="cardAuthenticate" id="pin" type="text" [(ngModel)]="pinCodeIn" class="form-control" placeholder="PIN radnika" autofocus>
+                <input *ngIf="!cardAuthenticate" id="sifra" type="text" [(ngModel)]="sifra" class="form-control" placeholder="Šifra radnika" autofocus>
+                <input *ngIf="!cardAuthenticate" type="password" [(ngModel)]="password" class="form-control" placeholder="Tajna šifra">
+                <button class="btn btn-lg btn-success btn-block" type="submit">Prijava</button>
+            </div>
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+﻿<div class="col-lg-3 col-sm-6" *ngFor="let zadatak of meni; let frs=first; let o=odd; let e=even">
+    <a href="" (click)=onSelect(zadatak)>
+        <section class="panel elipsis" [ngClass]="{purple: frs, white: o, green: e}">
+            <div class="symbol">
+                <i class="fa fa-send"></i>
+            </div>
+            <div class="value white">
+                <h1>{{zadatak.NAZIV_ZAD}}</h1>
+                <p>{{zadatak.ZAD_ID}} {{zadatak.NAZIV_ZAD}}</p>
+            </div>
+        </section>
+    </a>
+</div>

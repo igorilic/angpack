@@ -1,0 +1,1662 @@
+{
+  "success": "True",
+  "ID_RADNIKA": 685,
+  "PREZIME_RADNIKA": "Kelecevic",
+  "IME_RADNIKA": "Mirjana",
+  "SIFRA_RADNIKA": "685",
+  "ID_ULOGE": 4,
+  "NAZIV_ULOGE": "Šalterski radnik",
+  "VRSTA_ZADATAKA": [
+    {
+      "ZAD_ID": 0,
+      "NADREDJENI_ZAD": -1,
+      "NAZIV_ZAD": "Spisak zadataka",
+      "URL_FORME": null,
+      "Breadcrumb": null,
+      "Depth": 0,
+      "DecaZadaci": [
+        {
+          "ZAD_ID": 1,
+          "NADREDJENI_ZAD": 0,
+          "NAZIV_ZAD": " Portal",
+          "URL_FORME": null,
+          "Breadcrumb": [
+            1
+          ],
+          "Depth": 1,
+          "DecaZadaci": [
+            {
+              "ZAD_ID": 10,
+              "NADREDJENI_ZAD": 1,
+              "NAZIV_ZAD": "Šifarnici",
+              "URL_FORME": null,
+              "Breadcrumb": [
+                1,
+                10
+              ],
+              "Depth": 2,
+              "DecaZadaci": [
+                {
+                  "ZAD_ID": 100,
+                  "NADREDJENI_ZAD": 10,
+                  "NAZIV_ZAD": "Opšti šifarnici organizacije",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    1,
+                    10,
+                    100
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 10001,
+                      "NADREDJENI_ZAD": 100,
+                      "NAZIV_ZAD": "Osnovni podaci o Pošti Srpske",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 10003,
+                      "NADREDJENI_ZAD": 100,
+                      "NAZIV_ZAD": "Jedinice poštanske mreže",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 10007,
+                      "NADREDJENI_ZAD": 100,
+                      "NAZIV_ZAD": "Blagajnički maksimumi",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 101,
+                  "NADREDJENI_ZAD": 10,
+                  "NAZIV_ZAD": "Profil radnika",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    1,
+                    10,
+                    101
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 10101,
+                      "NADREDJENI_ZAD": 101,
+                      "NAZIV_ZAD": "Radnik",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 10103,
+                      "NADREDJENI_ZAD": 101,
+                      "NAZIV_ZAD": "Tip radnika",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 102,
+                  "NADREDJENI_ZAD": 10,
+                  "NAZIV_ZAD": "Ovlašćenja",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    1,
+                    10,
+                    102
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 10202,
+                      "NADREDJENI_ZAD": 102,
+                      "NAZIV_ZAD": "Grupe poslova/zadataka",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 10204,
+                      "NADREDJENI_ZAD": 102,
+                      "NAZIV_ZAD": "Dodela odeljaka radniku",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 103,
+                  "NADREDJENI_ZAD": 10,
+                  "NAZIV_ZAD": "Geo šifarnici",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    1,
+                    10,
+                    103
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 10301,
+                      "NADREDJENI_ZAD": 103,
+                      "NAZIV_ZAD": "Šifarnik kontinenata",
+                      "URL_FORME": "Sifarnik",
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 10303,
+                      "NADREDJENI_ZAD": 103,
+                      "NAZIV_ZAD": "Šifarnik opština",
+                      "URL_FORME": "Sifarnik",
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 10304,
+                      "NADREDJENI_ZAD": 103,
+                      "NAZIV_ZAD": "Šifarnik mesta",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 104,
+                  "NADREDJENI_ZAD": 10,
+                  "NAZIV_ZAD": "Podešavanje globalnih parametara",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    1,
+                    10,
+                    104
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 10402,
+                      "NADREDJENI_ZAD": 104,
+                      "NAZIV_ZAD": "Poseban način prijave na nivou radnika",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ZAD_ID": 11,
+              "NADREDJENI_ZAD": 1,
+              "NAZIV_ZAD": "Prijava i odjava",
+              "URL_FORME": null,
+              "Breadcrumb": [
+                1,
+                11
+              ],
+              "Depth": 2,
+              "DecaZadaci": [
+                {
+                  "ZAD_ID": 110,
+                  "NADREDJENI_ZAD": 11,
+                  "NAZIV_ZAD": "Prijava i odjava",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    1,
+                    11,
+                    110
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 11002,
+                      "NADREDJENI_ZAD": 110,
+                      "NAZIV_ZAD": "Promena lozinke",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ZAD_ID": 12,
+              "NADREDJENI_ZAD": 1,
+              "NAZIV_ZAD": "Praćenje i monitoring",
+              "URL_FORME": null,
+              "Breadcrumb": [
+                1,
+                12
+              ],
+              "Depth": 2,
+              "DecaZadaci": [
+                {
+                  "ZAD_ID": 120,
+                  "NADREDJENI_ZAD": 12,
+                  "NAZIV_ZAD": "Logiranje aktivnosti krajnjih korisnika",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    1,
+                    12,
+                    120
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 12001,
+                      "NADREDJENI_ZAD": 120,
+                      "NAZIV_ZAD": "Logiranje aktivnosti prijave i odjave",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 121,
+                  "NADREDJENI_ZAD": 12,
+                  "NAZIV_ZAD": "Logiranje stanja nad sistemom",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    1,
+                    12,
+                    121
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 12102,
+                      "NADREDJENI_ZAD": 121,
+                      "NAZIV_ZAD": "Logiranje ispada sistema",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ZAD_ID": 14,
+              "NADREDJENI_ZAD": 1,
+              "NAZIV_ZAD": "Upravljanje štampom",
+              "URL_FORME": null,
+              "Breadcrumb": null,
+              "Depth": 0,
+              "DecaZadaci": null
+            }
+          ]
+        },
+        {
+          "ZAD_ID": 2,
+          "NADREDJENI_ZAD": 0,
+          "NAZIV_ZAD": "Šalter",
+          "URL_FORME": null,
+          "Breadcrumb": [
+            2
+          ],
+          "Depth": 1,
+          "DecaZadaci": [
+            {
+              "ZAD_ID": 21,
+              "NADREDJENI_ZAD": 2,
+              "NAZIV_ZAD": "Pomoćna blagajna",
+              "URL_FORME": null,
+              "Breadcrumb": [
+                2,
+                21
+              ],
+              "Depth": 2,
+              "DecaZadaci": [
+                {
+                  "ZAD_ID": 210,
+                  "NADREDJENI_ZAD": 21,
+                  "NAZIV_ZAD": "Rad sa blagajnom",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    21,
+                    210
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 21001,
+                      "NADREDJENI_ZAD": 210,
+                      "NAZIV_ZAD": "Trebovanje novca od GB",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21002,
+                      "NADREDJENI_ZAD": 210,
+                      "NAZIV_ZAD": "Razduženje novca u toku dana",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21003,
+                      "NADREDJENI_ZAD": 210,
+                      "NAZIV_ZAD": "Razduženje novca na kraju smene",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21004,
+                      "NADREDJENI_ZAD": 210,
+                      "NAZIV_ZAD": "Računsko stanje pomoćne blagajne",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21005,
+                      "NADREDJENI_ZAD": 210,
+                      "NAZIV_ZAD": "Uplata viška",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21006,
+                      "NADREDJENI_ZAD": 210,
+                      "NAZIV_ZAD": "Prijava manjka",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21007,
+                      "NADREDJENI_ZAD": 210,
+                      "NAZIV_ZAD": "Uvid i korekcija transakcija",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21008,
+                      "NADREDJENI_ZAD": 210,
+                      "NAZIV_ZAD": "Stanje valutne blagajne",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21009,
+                      "NADREDJENI_ZAD": 210,
+                      "NAZIV_ZAD": "Trebovanje novca sa svrhom",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21010,
+                      "NADREDJENI_ZAD": 210,
+                      "NAZIV_ZAD": "Razduženje novca sa svrhom",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21011,
+                      "NADREDJENI_ZAD": 210,
+                      "NAZIV_ZAD": "Računsko stanje dotacija sa svrhom",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 211,
+                  "NADREDJENI_ZAD": 21,
+                  "NAZIV_ZAD": "Uplate/Isplate",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    21,
+                    211
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 21101,
+                      "NADREDJENI_ZAD": 211,
+                      "NAZIV_ZAD": "Uplata po platnom prometu",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21102,
+                      "NADREDJENI_ZAD": 211,
+                      "NAZIV_ZAD": "Isplata iz dotacija",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21103,
+                      "NADREDJENI_ZAD": 211,
+                      "NAZIV_ZAD": "Uplata uputnice",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21104,
+                      "NADREDJENI_ZAD": 211,
+                      "NAZIV_ZAD": "Isplata uputnice",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21105,
+                      "NADREDJENI_ZAD": 211,
+                      "NAZIV_ZAD": "Uplata komunalne usluge",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21106,
+                      "NADREDJENI_ZAD": 211,
+                      "NAZIV_ZAD": "Uplata telefona",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21107,
+                      "NADREDJENI_ZAD": 211,
+                      "NAZIV_ZAD": "Uplata mobilnog telefona",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 212,
+                  "NADREDJENI_ZAD": 21,
+                  "NAZIV_ZAD": "Menjački poslovi",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    21,
+                    212
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 21201,
+                      "NADREDJENI_ZAD": 212,
+                      "NAZIV_ZAD": "Otkup deviza",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21202,
+                      "NADREDJENI_ZAD": 212,
+                      "NAZIV_ZAD": "Prodaja deviza",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 213,
+                  "NADREDJENI_ZAD": 21,
+                  "NAZIV_ZAD": "Ostale uplate/isplate",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    21,
+                    213
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 21301,
+                      "NADREDJENI_ZAD": 213,
+                      "NAZIV_ZAD": "Otvaranje Internet naloga",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21302,
+                      "NADREDJENI_ZAD": 213,
+                      "NAZIV_ZAD": "Uplata Interneta",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21303,
+                      "NADREDJENI_ZAD": 213,
+                      "NAZIV_ZAD": "Uplata oglasa",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21304,
+                      "NADREDJENI_ZAD": 213,
+                      "NAZIV_ZAD": "Ostale isplate",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21305,
+                      "NADREDJENI_ZAD": 213,
+                      "NAZIV_ZAD": "Isplata PoS",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21306,
+                      "NADREDJENI_ZAD": 213,
+                      "NAZIV_ZAD": "Uplate rate kredita",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21307,
+                      "NADREDJENI_ZAD": 213,
+                      "NAZIV_ZAD": "Isplata rate kredita",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21308,
+                      "NADREDJENI_ZAD": 213,
+                      "NAZIV_ZAD": "Prijem uplata za oglašavanje čitulja",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 214,
+                  "NADREDJENI_ZAD": 21,
+                  "NAZIV_ZAD": "Vrednosnice PB",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    21,
+                    214
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 21401,
+                      "NADREDJENI_ZAD": 214,
+                      "NAZIV_ZAD": "Stanje poštanskih vrednosti",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21402,
+                      "NADREDJENI_ZAD": 214,
+                      "NAZIV_ZAD": "Trebovanje poštanskih vrednosti",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21403,
+                      "NADREDJENI_ZAD": 214,
+                      "NAZIV_ZAD": "Prodaja poštanskih vrednosti",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21404,
+                      "NADREDJENI_ZAD": 214,
+                      "NAZIV_ZAD": "Povrat glavnoj blagajni",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21405,
+                      "NADREDJENI_ZAD": 214,
+                      "NAZIV_ZAD": "Isplata poštanskih vrednosti",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 215,
+                  "NADREDJENI_ZAD": 21,
+                  "NAZIV_ZAD": "TT usluge",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    21,
+                    215
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 21501,
+                      "NADREDJENI_ZAD": 215,
+                      "NAZIV_ZAD": "Prijem telegrama u unutrašnjem saobraćaju",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21502,
+                      "NADREDJENI_ZAD": 215,
+                      "NAZIV_ZAD": "Prijem telegrama u međunarodnom saobraćaju",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 216,
+                  "NADREDJENI_ZAD": 21,
+                  "NAZIV_ZAD": "Western Union pomoćna blagajna",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    21,
+                    216
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 21601,
+                      "NADREDJENI_ZAD": 216,
+                      "NAZIV_ZAD": "WU uplata",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21602,
+                      "NADREDJENI_ZAD": 216,
+                      "NAZIV_ZAD": "WU isplata",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21603,
+                      "NADREDJENI_ZAD": 216,
+                      "NAZIV_ZAD": "WU stanje kase",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 21604,
+                      "NADREDJENI_ZAD": 216,
+                      "NAZIV_ZAD": "Razduženje prema GB WU",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ZAD_ID": 22,
+              "NADREDJENI_ZAD": 2,
+              "NAZIV_ZAD": "Prijem pošiljaka",
+              "URL_FORME": null,
+              "Breadcrumb": [
+                2,
+                22
+              ],
+              "Depth": 2,
+              "DecaZadaci": [
+                {
+                  "ZAD_ID": 220,
+                  "NADREDJENI_ZAD": 22,
+                  "NAZIV_ZAD": "UPS",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    22,
+                    220
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 22001,
+                      "NADREDJENI_ZAD": 220,
+                      "NAZIV_ZAD": "Pismonosne pošiljke",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 22002,
+                      "NADREDJENI_ZAD": 220,
+                      "NAZIV_ZAD": "Paketi",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 22003,
+                      "NADREDJENI_ZAD": 220,
+                      "NAZIV_ZAD": "Direktna pošta",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 22004,
+                      "NADREDJENI_ZAD": 220,
+                      "NAZIV_ZAD": "Brza pošta",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 22005,
+                      "NADREDJENI_ZAD": 220,
+                      "NAZIV_ZAD": "Biz Ekspres",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 22006,
+                      "NADREDJENI_ZAD": 220,
+                      "NAZIV_ZAD": "DHL",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 221,
+                  "NADREDJENI_ZAD": 22,
+                  "NAZIV_ZAD": "MPS",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    22,
+                    221
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 22101,
+                      "NADREDJENI_ZAD": 221,
+                      "NAZIV_ZAD": "Pismonosne pošiljke",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 22102,
+                      "NADREDJENI_ZAD": 221,
+                      "NAZIV_ZAD": "Paketi",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 22103,
+                      "NADREDJENI_ZAD": 221,
+                      "NAZIV_ZAD": "Direktna pošta",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 22104,
+                      "NADREDJENI_ZAD": 221,
+                      "NAZIV_ZAD": "Brza pošta",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 22105,
+                      "NADREDJENI_ZAD": 221,
+                      "NAZIV_ZAD": "DHL",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 222,
+                  "NADREDJENI_ZAD": 22,
+                  "NAZIV_ZAD": "Grupni prijem pošiljaka",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    22,
+                    222
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 22201,
+                      "NADREDJENI_ZAD": 222,
+                      "NAZIV_ZAD": "Grupni prijem pošiljaka",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 22202,
+                      "NADREDJENI_ZAD": 222,
+                      "NAZIV_ZAD": "Uvoz Elektronske prijemne knjige",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 223,
+                  "NADREDJENI_ZAD": 22,
+                  "NAZIV_ZAD": "Razno (izveštaji)",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    22,
+                    223
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 22301,
+                      "NADREDJENI_ZAD": 223,
+                      "NAZIV_ZAD": "Predaja pošiljaka na otpremu",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 22302,
+                      "NADREDJENI_ZAD": 223,
+                      "NAZIV_ZAD": "Pregled već predatih pošiljki na otpremu",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 224,
+                  "NADREDJENI_ZAD": 22,
+                  "NAZIV_ZAD": "Dopunske usluge",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    22,
+                    224
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 22401,
+                      "NADREDJENI_ZAD": 224,
+                      "NAZIV_ZAD": "Dopunske usluge",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ZAD_ID": 24,
+              "NADREDJENI_ZAD": 2,
+              "NAZIV_ZAD": "Šifarnici šaltera",
+              "URL_FORME": null,
+              "Breadcrumb": [
+                2,
+                24
+              ],
+              "Depth": 2,
+              "DecaZadaci": [
+                {
+                  "ZAD_ID": 240,
+                  "NADREDJENI_ZAD": 24,
+                  "NAZIV_ZAD": "Valute apoeni, kursne liste",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    2,
+                    24,
+                    240
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 24001,
+                      "NADREDJENI_ZAD": 240,
+                      "NAZIV_ZAD": "Šifarnik valuta",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 24002,
+                      "NADREDJENI_ZAD": 240,
+                      "NAZIV_ZAD": "Šifarnik apoena",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ZAD_ID": 3,
+          "NADREDJENI_ZAD": 0,
+          "NAZIV_ZAD": "Prerada pošiljaka, Dostava i Isporuka",
+          "URL_FORME": null,
+          "Breadcrumb": [
+            3
+          ],
+          "Depth": 1,
+          "DecaZadaci": [
+            {
+              "ZAD_ID": 30,
+              "NADREDJENI_ZAD": 3,
+              "NAZIV_ZAD": "Prerada pošiljaka",
+              "URL_FORME": null,
+              "Breadcrumb": [
+                3,
+                30
+              ],
+              "Depth": 2,
+              "DecaZadaci": [
+                {
+                  "ZAD_ID": 300,
+                  "NADREDJENI_ZAD": 30,
+                  "NAZIV_ZAD": "Kartovanje",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    30,
+                    300
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 30001,
+                      "NADREDJENI_ZAD": 300,
+                      "NAZIV_ZAD": "Evidentiranje pošiljaka",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 30004,
+                      "NADREDJENI_ZAD": 300,
+                      "NAZIV_ZAD": "Evidentiranje popisa pošiljaka u KZ",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 301,
+                  "NADREDJENI_ZAD": 30,
+                  "NAZIV_ZAD": "Razmena",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    30,
+                    301
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 30102,
+                      "NADREDJENI_ZAD": 301,
+                      "NAZIV_ZAD": "Evidentiranje vreća u Spisak razmene",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 30105,
+                      "NADREDJENI_ZAD": 301,
+                      "NAZIV_ZAD": "Evidentiranje Popisa pošiljaka van vreće",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 303,
+                  "NADREDJENI_ZAD": 30,
+                  "NAZIV_ZAD": "Prispeće",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    30,
+                    303
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 30301,
+                      "NADREDJENI_ZAD": 303,
+                      "NAZIV_ZAD": "Preuzimanje Reda prevoza",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 30304,
+                      "NADREDJENI_ZAD": 303,
+                      "NAZIV_ZAD": "Prispeće pošiljaka",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 304,
+                  "NADREDJENI_ZAD": 30,
+                  "NAZIV_ZAD": "Tekuće stanje",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    30,
+                    304
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 30401,
+                      "NADREDJENI_ZAD": 304,
+                      "NAZIV_ZAD": "Tekuće stanje pošiljaka",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 305,
+                  "NADREDJENI_ZAD": 30,
+                  "NAZIV_ZAD": "Poslovi prevoza",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    30,
+                    305
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 30502,
+                      "NADREDJENI_ZAD": 305,
+                      "NAZIV_ZAD": "Linije prevoza",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 306,
+                  "NADREDJENI_ZAD": 30,
+                  "NAZIV_ZAD": "Šifarnici",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    30,
+                    306
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 30601,
+                      "NADREDJENI_ZAD": 306,
+                      "NAZIV_ZAD": " Vrste pošiljaka",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 30604,
+                      "NADREDJENI_ZAD": 306,
+                      "NAZIV_ZAD": "Šifarnik statusa pošiljaka",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 307,
+                  "NADREDJENI_ZAD": 30,
+                  "NAZIV_ZAD": "Izveštaji",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    30,
+                    307
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 30702,
+                      "NADREDJENI_ZAD": 307,
+                      "NAZIV_ZAD": "Praćenje pošiljaka",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ZAD_ID": 31,
+              "NADREDJENI_ZAD": 3,
+              "NAZIV_ZAD": "Dostava",
+              "URL_FORME": null,
+              "Breadcrumb": [
+                3,
+                31
+              ],
+              "Depth": 2,
+              "DecaZadaci": [
+                {
+                  "ZAD_ID": 310,
+                  "NADREDJENI_ZAD": 31,
+                  "NAZIV_ZAD": "Dostavne knjižice",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    31,
+                    310
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 31001,
+                      "NADREDJENI_ZAD": 310,
+                      "NAZIV_ZAD": " Formiranje dostavne knjižice",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 311,
+                  "NADREDJENI_ZAD": 31,
+                  "NAZIV_ZAD": "Dostavne knjižiZaduženje i razduženj poštonošece",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    31,
+                    311
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 31102,
+                      "NADREDJENI_ZAD": 311,
+                      "NAZIV_ZAD": "Razduženje poštonoše",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 312,
+                  "NADREDJENI_ZAD": 31,
+                  "NAZIV_ZAD": "Izveštaji",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    31,
+                    312
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 31201,
+                      "NADREDJENI_ZAD": 312,
+                      "NAZIV_ZAD": "Tekuće stanje pošiljaka",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ZAD_ID": 32,
+              "NADREDJENI_ZAD": 3,
+              "NAZIV_ZAD": "Isporuka",
+              "URL_FORME": null,
+              "Breadcrumb": [
+                3,
+                32
+              ],
+              "Depth": 2,
+              "DecaZadaci": [
+                {
+                  "ZAD_ID": 320,
+                  "NADREDJENI_ZAD": 32,
+                  "NAZIV_ZAD": "Isporuka putem pregratka",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    32,
+                    320
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 32002,
+                      "NADREDJENI_ZAD": 320,
+                      "NAZIV_ZAD": " Pregled isporučnog spiska",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 321,
+                  "NADREDJENI_ZAD": 32,
+                  "NAZIV_ZAD": "Isporuka putem pregratkIsporuka “obaveštenih” pošiljakaa",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    32,
+                    321
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 32102,
+                      "NADREDJENI_ZAD": 321,
+                      "NAZIV_ZAD": "Pregled isporučne knjižice",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 322,
+                  "NADREDJENI_ZAD": 32,
+                  "NAZIV_ZAD": "Isporuka post restant pošiljaka",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    32,
+                    322
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 32201,
+                      "NADREDJENI_ZAD": 322,
+                      "NAZIV_ZAD": " Formiranje isporučne knjižice",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 32204,
+                      "NADREDJENI_ZAD": 322,
+                      "NAZIV_ZAD": "Pregled isporuka post restant pošiljaka",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ZAD_ID": 33,
+              "NADREDJENI_ZAD": 3,
+              "NAZIV_ZAD": "Obračun sa poštonošama",
+              "URL_FORME": null,
+              "Breadcrumb": [
+                3,
+                33
+              ],
+              "Depth": 2,
+              "DecaZadaci": [
+                {
+                  "ZAD_ID": 330,
+                  "NADREDJENI_ZAD": 33,
+                  "NAZIV_ZAD": "Formiranje KPU",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    33,
+                    330
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 33002,
+                      "NADREDJENI_ZAD": 330,
+                      "NAZIV_ZAD": "Formiranje KPU Dotacija",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 331,
+                  "NADREDJENI_ZAD": 33,
+                  "NAZIV_ZAD": "Zaduženje i razduženje",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    33,
+                    331
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 33103,
+                      "NADREDJENI_ZAD": 331,
+                      "NAZIV_ZAD": "Zaduženje poštonoše novcem",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 332,
+                  "NADREDJENI_ZAD": 33,
+                  "NAZIV_ZAD": "Zaduženje i razdužeRekapitulacija razduženjanje",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    33,
+                    332
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 33201,
+                      "NADREDJENI_ZAD": 332,
+                      "NAZIV_ZAD": "Rekapitulacija razduženja",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                },
+                {
+                  "ZAD_ID": 334,
+                  "NADREDJENI_ZAD": 33,
+                  "NAZIV_ZAD": "Izveštaji",
+                  "URL_FORME": null,
+                  "Breadcrumb": [
+                    3,
+                    33,
+                    334
+                  ],
+                  "Depth": 3,
+                  "DecaZadaci": [
+                    {
+                      "ZAD_ID": 33402,
+                      "NADREDJENI_ZAD": 334,
+                      "NAZIV_ZAD": "Pregled storniranih  uputnica",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 33405,
+                      "NADREDJENI_ZAD": 334,
+                      "NAZIV_ZAD": "Pregled nadoslanih  uputnica",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    },
+                    {
+                      "ZAD_ID": 33408,
+                      "NADREDJENI_ZAD": 334,
+                      "NAZIV_ZAD": "Pregled uputnica za isplatu",
+                      "URL_FORME": null,
+                      "Breadcrumb": null,
+                      "Depth": 0,
+                      "DecaZadaci": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ZAD_ID": 21203,
+      "NADREDJENI_ZAD": -1,
+      "NAZIV_ZAD": "Stanje kase PB za menjačke poslove",
+      "URL_FORME": null,
+      "Breadcrumb": null,
+      "Depth": 0,
+      "DecaZadaci": null
+    },
+    {
+      "ZAD_ID": 30608,
+      "NADREDJENI_ZAD": -1,
+      "NAZIV_ZAD": "Pregled razmene",
+      "URL_FORME": null,
+      "Breadcrumb": null,
+      "Depth": 0,
+      "DecaZadaci": null
+    },
+    {
+      "ZAD_ID": 31105,
+      "NADREDJENI_ZAD": -1,
+      "NAZIV_ZAD": "Razduženje novcem prema GB",
+      "URL_FORME": null,
+      "Breadcrumb": null,
+      "Depth": 0,
+      "DecaZadaci": null
+    },
+    {
+      "ZAD_ID": 31204,
+      "NADREDJENI_ZAD": -1,
+      "NAZIV_ZAD": "Pregled nerazduženih poštonoša",
+      "URL_FORME": null,
+      "Breadcrumb": null,
+      "Depth": 0,
+      "DecaZadaci": null
+    },
+    {
+      "ZAD_ID": 31207,
+      "NADREDJENI_ZAD": -1,
+      "NAZIV_ZAD": "Uplate i prijem pošiljaka sa dostavnog rejona",
+      "URL_FORME": null,
+      "Breadcrumb": null,
+      "Depth": 0,
+      "DecaZadaci": null
+    },
+    {
+      "ZAD_ID": 32005,
+      "NADREDJENI_ZAD": -1,
+      "NAZIV_ZAD": "Vraćanje isporučenih pošiljaka",
+      "URL_FORME": null,
+      "Breadcrumb": null,
+      "Depth": 0,
+      "DecaZadaci": null
+    },
+    {
+      "ZAD_ID": 32303,
+      "NADREDJENI_ZAD": -1,
+      "NAZIV_ZAD": "Izveštaj o broju isporučenih pošiljaka",
+      "URL_FORME": null,
+      "Breadcrumb": null,
+      "Depth": 0,
+      "DecaZadaci": null
+    },
+    {
+      "ZAD_ID": 32402,
+      "NADREDJENI_ZAD": -1,
+      "NAZIV_ZAD": "Dnevnik uplata po opterećenju",
+      "URL_FORME": null,
+      "Breadcrumb": null,
+      "Depth": 0,
+      "DecaZadaci": null
+    }
+  ],
+  "BROJ_POST_RADI": 78250,
+  "CID": "",
+  "NAZIV_POS": "Laktasi",
+  "ID_RAD_JED": 1,
+  "NAZIV_RAD_JED": "Banja Luka",
+  "DATUM_RADA": "6/1/2016 12:00:00 AM",
+  "STANJE_RADNIKA": 0
+}
