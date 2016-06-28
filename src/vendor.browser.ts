@@ -26,7 +26,7 @@ import '@ngrx/core';
 import '@ngrx/store';
 
 // other
-
+import * as $ from 'jquery';
 
 
 if ('production' === ENV) {

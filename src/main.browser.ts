@@ -1,20 +1,3 @@
-
-// enableProdMode();
-
-// bootstrap(AppComponent, [
-
-    // HTTP_PROVIDERS,
-    // ROUTER_PROVIDERS,
-    // FORM_PROVIDERS,
-    // SignalRClient,
-    // SmartCardAuth,
-    // provideStore({
-    //     menu,
-    //     smartCard
-//     })
-// ]);
-
-
 /*
  * Providers provided by Angular
  */
@@ -25,14 +8,9 @@ import { bootstrap } from '@angular/platform-browser-dynamic';
 */
 import { PLATFORM_PROVIDERS } from './platform/browser';
 import { ENV_PROVIDERS, decorateComponentRef } from './platform/environment';
-import { provide, enableProdMode } from '@angular/core';
-import { LocationStrategy, HashLocationStrategy } from '@angular/common';
-import { HTTP_PROVIDERS } from '@angular/http';
-import { ROUTER_PROVIDERS } from '@angular/router-deprecated';
-import { FORM_PROVIDERS } from '@angular/common';
 import 'rxjs/Rx';
-import * as $ from 'jquery';
-import 'ms-signalr-client';
+
+// import 'ms-signalr-client';
 import { SignalRClient } from './app/shared/signalr/signalr-client.service';
 import { SmartCardAuth } from './app/shared/signalr/smartcard.service';
 // @ngrx
@@ -57,9 +35,7 @@ export function main(initialHmrState?: any): Promise<any> {
     ...PLATFORM_PROVIDERS,
     ...ENV_PROVIDERS,
     ...APP_PROVIDERS,
-    HTTP_PROVIDERS,
-    ROUTER_PROVIDERS,
-    FORM_PROVIDERS,
+    
     SignalRClient,
     SmartCardAuth,
     provideStore({

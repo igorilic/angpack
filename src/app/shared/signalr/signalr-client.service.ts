@@ -1,6 +1,6 @@
 ﻿//import $ from 'jquery';
 //make sure to run jspm install npm:ms-signalr-client
-// import * as $ from 'jquery';
+import * as $ from 'jquery';
 import 'ms-signalr-client';
 import { Injectable } from '@angular/core';
 

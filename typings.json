@@ -1,20 +1,16 @@
-﻿{
+{
   "globalDependencies": {
-    "angular-protractor": "registry:dt/angular-protractor#1.5.0+20160425143459",
     "core-js": "registry:dt/core-js#0.0.0+20160602141332",
     "hammerjs": "registry:dt/hammerjs#2.0.4+20160417130828",
     "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
+    "jquery": "registry:dt/jquery#1.10.0+20160628074423",
     "node": "registry:dt/node#6.0.0+20160621231320",
-    "selenium-webdriver": "registry:dt/selenium-webdriver#2.44.0+20160317120654",
+    "signalr": "registry:dt/signalr#2.2.0+20160509082439",
     "source-map": "registry:dt/source-map#0.0.0+20160317120654",
     "uglify-js": "registry:dt/uglify-js#2.6.1+20160316155526",
-    "webpack": "registry:dt/webpack#1.12.9+20160523035535",
-    "jquery": "registry:dt/jquery#1.10.0+20160620094458",
-    "signalr": "registry:dt/signalr#2.2.0+20160509082439"
+    "webpack": "registry:dt/webpack#1.12.9+20160523035535"
   },
   "dependencies": {
     "moment": "registry:npm/moment#2.10.5+20160211003958"
   }
-
-
 }

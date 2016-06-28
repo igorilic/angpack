@@ -5,7 +5,7 @@
 const helpers = require('./helpers');
 const webpackMerge = require('webpack-merge'); // used to merge webpack configs
 const commonConfig = require('./webpack.common.js'); // the settings that are common to prod and dev
-
+const ProvidePlugin = require('webpack/lib/ProvidePlugin'); 
 /**
  * Webpack Plugins
  */
@@ -29,7 +29,11 @@ const METADATA = webpackMerge(commonConfig.metadata, {
  * See: http://webpack.github.io/docs/configuration.html#cli
  */
 module.exports = webpackMerge(commonConfig, {
-
+  // resolve: {
+  //   alias: {
+  //     jquery: "jquery/src/jquery"
+  //   }
+  // },
   /**
    * Merged metadata from webpack.common.js for index.html
    *
@@ -92,6 +96,7 @@ module.exports = webpackMerge(commonConfig, {
   },
 
   plugins: [
+    
 
     /**
      * Plugin: DefinePlugin
@@ -112,6 +117,17 @@ module.exports = webpackMerge(commonConfig, {
         'HMR': METADATA.HMR,
       }
     }),
+    new ProvidePlugin({
+        jQuery: 'jquery',
+        $: 'jquery',
+        jquery: 'jquery'
+    })
+
+    // new webpack.ProvidePlugin({
+      // jQuery: 'jquery',
+      // $: 'jquery',
+      // jquery: 'jquery'
+    // })
   ],
 
   /**
